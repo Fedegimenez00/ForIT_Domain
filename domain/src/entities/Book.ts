@@ -1,6 +1,6 @@
 export interface Book {
   id: number;
-  nombre: string;
+  name: string;
   category:
     | "terror"
     | "history"
