@@ -1,4 +1,8 @@
 import express from "express";
+import { CreateOrder } from "../../../domain/src/use-cases/CreateOrder";
+import { OrderRepositoryMemory } from "../../../domain/src/repository/OrderRepository";
+import { UserRepositoryMemory } from "../../../domain/src/repository/UserRepository";
+import { RegisterUser } from "../../../domain/src/use-cases/RegisterUser";
 
 const app = express();
 
