@@ -6,8 +6,6 @@ import { RegisterUser } from "../../../domain/src/use-cases/RegisterUser";
 
 const app = express();
 
-app.use(express.json());
-
 const orderRepo = new OrderRepositoryMemory();
 const userRepo = new UserRepositoryMemory();
 
